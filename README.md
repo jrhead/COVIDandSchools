@@ -90,9 +90,9 @@ The **output** directory contains .RData files of independent realizations of th
     
 2. **vary_key_params** contains .RData files which are output from examining the influence of $\alpha$ (ratio of the force of infection of asymptomatic vs symptomatic infectio), susceptibility ratios, and city demographics on the counterfactual incidence in the spring if schools had remained open. It contains two sub-directories:
 
-a. **alpha_susceptibility_ratio** contains nine .RData files where both $\alpha$ and the susceptibility ratios are varied across three combinations for each ($\alpha$ is 0.25, 0.50, or 1 (represented as A25, A50, A100 in the file names); and susceptibility ratio of children under 20 to adults above 20 is 0.25, 0.50, or 1 (represented as SR25, SR50, SR100 in the file names). These are produced by running the script **main_counterfactual_scenarios_spring.R**
+    a. **alpha_susceptibility_ratio** contains nine .RData files where both $\alpha$ and the susceptibility ratios are varied across three combinations for each ($\alpha$ is 0.25, 0.50, or 1 (represented as A25, A50, A100 in the file names); and susceptibility ratio of children under 20 to adults above 20 is 0.25, 0.50, or 1 (represented as SR25, SR50, SR100 in the file names). These are produced by running the script **main_counterfactual_scenarios_spring.R**
 
-b. **proportion_children** contains two .RData files where the proportion of households with children is varied from 16.9% (Berkeley) to 24.4% (Hayward). These are produced by running the script **main_counterfactual_scenarios_spring.R**
+    b. **proportion_children** contains two .RData files where the proportion of households with children is varied from 16.9% (Berkeley) to 24.4% (Hayward). These are produced by running the script **main_counterfactual_scenarios_spring.R**
 
 3. **main_reopening_scenarios** contains eight .RData files produced by running both of the scripts **main_reopening_strategies.R** and **main_reopening_strategies_hybridbygrade.R**. They examine differences in outcomes association with school reopening under various interventions across four combinations of modelling scenarios. These four combinations are produced by crossing:
 
