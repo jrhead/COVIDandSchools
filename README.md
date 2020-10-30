@@ -124,6 +124,15 @@ susceptAgeSplit = 10
 
 Other parameters may be varied throughout, including other population level parameters.
 
+To load needed functions into the main R script, first update the working directory to the COVIDandSchools directory.
+
+```{r eval = FALSE}
+#Load needed R scipts/functions
+source(".\\code\\fall_reopen\\synth_pop_reopen.R")
+source(".\\code\\fall_reopen\\contact_matrix_reopen.R")
+source(".\\code\\fall_reopen\\model_functions_reopen.R")
+```
+
 This script was implemented in parallel on a computer with multiple cores. To change the code to fit with different computer specifications, see these lines of code:
 
 ```{r eval = FALSE}
