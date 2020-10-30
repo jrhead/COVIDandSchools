@@ -239,7 +239,8 @@ synth_pop <- function(N, #number of agents
   
   ## 6. Assign schools, grades, classes based on age following some rules: 
   # - kids in same level should go to same school as sibling
-  # - grades split by ages...  School <- rep(NA, N)
+  # - grades split by ages...  
+  School <- rep(NA, N)
 
   #Elementary schools take 5-10 y/o
   School[Age>=5 & Age < 11] <- sample(1:Nschools$Elementary, sum(Age>=5 & Age < 11), replace = TRUE)
