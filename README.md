@@ -78,6 +78,8 @@ The **code** folder contains all the R scripts necessary to run all instances of
 
 ### output
 
+Output is too large to be stored in github and can be found at Figshare: (https://figshare.com/projects/Output_files_for_COVID-19_and_Schools_project/101387)
+
 The **output** directory contains .RData files of independent realizations of the model across different model specifications and assumptions. It contains three sub-directories:
 
 1. **main_counter_factual_interventions** contains .RData files which are output from examining the 6 counterfactual interventions examining the effect of the spring semester closure.
